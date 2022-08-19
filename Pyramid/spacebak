@@ -1,0 +1,7 @@
+def pyramid(char):
+  space= " "
+  print 4*space,char
+  print 3*space, 3*char 
+  print 2*space, 5*char
+  print space, 7*char
+  print 9*char 
