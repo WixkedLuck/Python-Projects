@@ -1,0 +1,37 @@
+<file_created time="Tue Nov 13 12:33:48 EST 2018">
+<menu_button time="Tue Nov 13 12:39:06 EST 2018">Load Program</menu_button>
+<file_saved time="Tue Nov 13 12:40:09 EST 2018">C:\Users\garde\Documents\Jes\lab 11\copypic</file_saved>
+</file_created>
+<menu_button time="Tue Nov 13 12:40:15 EST 2018">Load Program</menu_button>
+<file_saved time="Tue Nov 13 12:40:16 EST 2018">C:\Users\garde\Documents\Jes\lab 11\copypic</file_saved>
+</file_created>
+<menu_button time="Tue Nov 13 12:42:09 EST 2018">Load Program</menu_button>
+<file_saved time="Tue Nov 13 12:42:11 EST 2018">C:\Users\garde\Documents\Jes\lab 11\copypic</file_saved>
+</file_created>
+<command_run time="Tue Nov 13 12:42:17 EST 2018">file=pickAFile()></command_run>
+<command_run time="Tue Nov 13 12:42:31 EST 2018">source=makePicture(file)></command_run>
+<command_run time="Tue Nov 13 12:42:38 EST 2018">target=makeEmptyPicture(500,500)></command_run>
+<command_run time="Tue Nov 13 12:42:57 EST 2018">copy(source,target, 30,40)></command_run>
+<menu_button time="Tue Nov 13 12:44:24 EST 2018">Load Program</menu_button>
+<file_saved time="Tue Nov 13 12:44:25 EST 2018">C:\Users\garde\Documents\Jes\lab 11\copypic</file_saved>
+</file_created>
+<command_run time="Tue Nov 13 12:44:33 EST 2018">file=pickAFile()></command_run>
+<command_run time="Tue Nov 13 12:44:42 EST 2018">source=makePicture(file)></command_run>
+<command_run time="Tue Nov 13 12:44:47 EST 2018">target=makeEmptyPicture(500,500)></command_run>
+<command_run time="Tue Nov 13 12:44:52 EST 2018">copy(source,target, 30,40)></command_run>
+<menu_button time="Tue Nov 13 12:46:05 EST 2018">Load Program</menu_button>
+<command_run time="Tue Nov 13 12:46:19 EST 2018">copy(source,target, 0,0)></command_run>
+<menu_button time="Tue Nov 13 12:51:39 EST 2018">Load Program</menu_button>
+<file_saved time="Tue Nov 13 12:51:41 EST 2018">C:\Users\garde\Documents\Jes\lab 11\copypic</file_saved>
+</file_created>
+<command_run time="Tue Nov 13 12:51:46 EST 2018">copyHorse()></command_run>
+<menu_button time="Tue Nov 13 12:52:54 EST 2018">Load Program</menu_button>
+<file_saved time="Tue Nov 13 12:52:55 EST 2018">C:\Users\garde\Documents\Jes\lab 11\copypic</file_saved>
+</file_created>
+<menu_button time="Tue Nov 13 12:54:43 EST 2018">Load Program</menu_button>
+<file_saved time="Tue Nov 13 12:54:45 EST 2018">C:\Users\garde\Documents\Jes\lab 11\copypic</file_saved>
+</file_created>
+<command_run time="Tue Nov 13 12:54:52 EST 2018">copyHorse()></command_run>
+<menu_button time="Tue Nov 13 12:58:14 EST 2018">Load Program</menu_button>
+<file_saved time="Tue Nov 13 12:58:15 EST 2018">C:\Users\garde\Documents\Jes\lab 11\copypic</file_saved>
+</file_created>
