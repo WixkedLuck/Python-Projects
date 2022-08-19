@@ -1,0 +1,74 @@
+def increaseGreen(picture):
+  counter=0
+  for pixel in getPixels(picture):
+    greenValue=getGreen(pixel)
+    setGreen(pixel,greenValue*1.5)
+    if counter%1000==0:
+      repaint(picture)
+    counter+=1
+
+
+def mystery1(picture):
+  for pixel in getPixels(picture):
+    redValue= getRed(pixel)
+    setRed(pixel,redValue*0.5)
+
+def mystery2(picture):
+  for pixel in getPixels(picture):
+    setRed(pixel,getRed(pixel)*0.5)
+
+def mystery3(picture):
+  for pixel in getPixels(picture):
+    setBlue(pixel,0)
+    
+def mystery4(picture):
+  for pixel in getPixels(picture):
+    r=getRed(pixel)*1.2
+    g=getGreen(pixel)*1.2
+    b=getBlue(pixel)*1.2
+    newColor=makeColor(r,g,b)
+    setColor(pixel,newColor)
+
+def mystery_5(picture):
+   for pixel in getPixels(picture):
+     r=getRed(pixel)+20
+     g=getGreen(pixel)+20
+     b=getBlue(pixel)+20
+     newColor=makeColor(r,g,b)
+     setColor(pixel,newColor)
+     
+def mystery_6(picture):
+   for pixel in getPixels(picture):
+     r=getRed(pixel)
+     g=getGreen(pixel)
+     b=getBlue(pixel)
+     newColor=makeColor(b,r,g)
+     setColor(pixel,newColor)
+     
+def makeBlackandWhite():
+   file=pickAFile()
+   picture=makePicture(file)
+   for pixel in getPixels(picture):
+    grey=(getRed(pixel)+getGreen(pixel)+getBlue(pixel))/3
+    setColor(pixel,makeColor(grey,grey,grey))
+   writePictureTo(picture,"C:\Users\garde\Documents\Jes\lab 8\lab7-black-and-white.jpg")
+   explore(picture)
+
+def makeRedandWhite():
+   file=pickAFile()
+   picture=makePicture(file)
+   for pixel in getPixels(picture):
+    r=getRed(pixel)
+    g=getGreen(pixel)
+    b=getBlue(pixel)
+    lum=(r+g+b)/3
+    if lum <64:
+      setColor(pixel,red)
+    elif lum>120:
+      setColor(pixel,white)
+    else:
+      setColor(pixel,red)
+   writePictureTo(picture,"C:\Users\garde\Documents\Jes\lab 8\lab7-red-and-white.jpg")
+   explore(picture)
+   
+     
